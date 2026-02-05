@@ -1,6 +1,11 @@
+require('dotenv').config()
 import express, { Express } from "express";
 const app = express();
-const port = 3000;
+const port = parseInt(process.env.PORT || "3000", 10);
+
+// middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // route imports
 const chat = require("./routes/chat");
