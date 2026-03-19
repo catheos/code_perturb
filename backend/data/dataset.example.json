@@ -1,0 +1,46 @@
+{
+  "regions": ["North", "South", "East", "West"],
+  "population": {
+    "2015": {"North": 500000, "South": 700000, "East": 600000, "West": 400000},
+    "2016": {"North": 510000, "South": 720000, "East": 610000, "West": 405000},
+    "2017": {"North": 520000, "South": 740000, "East": 620000, "West": 410000},
+    "2018": {"North": 530000, "South": 760000, "East": 630000, "West": 415000},
+    "2019": {"North": 540000, "South": 780000, "East": 640000, "West": 420000},
+    "2020": {"North": 550000, "South": 800000, "East": 650000, "West": 425000},
+    "2021": {"North": 560000, "South": 820000, "East": 660000, "West": 430000},
+    "2022": {"North": 570000, "South": 840000, "East": 670000, "West": 435000}
+  },
+  "urban_rural": {
+    "2022": {
+      "North": {"urban": 350000, "rural": 220000},
+      "South": {"urban": 500000, "rural": 340000},
+      "East": {"urban": 400000, "rural": 270000},
+      "West": {"urban": 200000, "rural": 235000}
+    }
+  },
+  "unemployment": {
+    "overall": {
+      "2018": {"North": 5.0, "South": 6.2, "East": 5.5, "West": 6.0},
+      "2019": {"North": 5.1, "South": 6.0, "East": 5.6, "West": 5.9},
+      "2020": {"North": 6.0, "South": 7.5, "East": 6.5, "West": 7.0},
+      "2021": {"North": 5.5, "South": 6.8, "East": 6.0, "West": 6.5},
+      "2022": {"North": 5.2, "South": 6.3, "East": 5.8, "West": 6.0},
+      "2023": {"North": 5.0, "South": 6.1, "East": 5.6, "West": 5.8}
+    },
+    "youth": {
+      "2018": {"North": 12.0, "South": 14.5, "East": 13.0, "West": 15.0},
+      "2019": {"North": 11.5, "South": 13.8, "East": 12.5, "West": 14.5},
+      "2020": {"North": 13.0, "South": 16.0, "East": 14.0, "West": 16.5},
+      "2021": {"North": 12.2, "South": 15.0, "East": 13.5, "West": 15.8},
+      "2022": {"North": 11.8, "South": 14.2, "East": 13.0, "West": 15.0},
+      "2023": {"North": 11.5, "South": 13.9, "East": 12.7, "West": 14.8}
+    }
+  },
+  "gender_unemployment": {
+    "2018": {"male": 5.0, "female": 5.5},
+    "2019": {"male": 5.1, "female": 5.8},
+    "2020": {"male": 6.0, "female": 6.5},
+    "2021": {"male": 5.5, "female": 6.0},
+    "2022": {"male": 5.2, "female": 5.7}
+  }
+}
